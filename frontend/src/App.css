@@ -1,0 +1,13 @@
+.App{
+  min-height: 100vh;
+  display: flex;
+  background-size: cover;
+  background-image: linear-gradient(white,yellowgreen);
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+::-webkit-scrollbar{
+  width: 0px;
+}

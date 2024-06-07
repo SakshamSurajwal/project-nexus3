@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  font-family: 'Pangolin';
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 7px 4px -4px peru;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  font-family: 'Pangolin';
+  margin-top: auto;
+}
+
+.footer a{
+  padding: 8px;
+  text-decoration: none;
+  color: yellow;
+}
+
+.footer a:hover{
+  color: yellowgreen;
+}
+
+.active{
+  border-bottom: 2px solid yellow;
+}
+
+.conImg{
+  width: 100vw;
+  height: 90vh;
+  position: absolute;
+  z-index: 1;
+}
+
+.conM{
+  position: relative;
+  z-index: 2;
+}
+
+.conText{
+  text-align:center;
+  font-size:100px;
+  color:yellow;
+  margin-top:20vh;
+  font-family:monospace;
+  margin-bottom:50vh;
+}
+
+.abText{
+  text-align:center;
+  font-size:100px;
+  color:yellow;
+  margin-top:20vh;
+  font-family:monospace;
+  margin-bottom:50vh;
+}
+
+.hmText{
+  text-align:center;
+  font-size:100px;
+  color:yellow;
+  margin-top:20vh;
+  font-family:monospace;
+  margin-bottom:50vh;
+}
+
+.serText{
+  text-align:center;
+  font-size:100px;
+  color:yellow;
+  margin-top:20vh;
+  font-family:monospace;
+  margin-bottom:50vh;
+}
+
+.abT{
+  font-size: 30px;
+}
+
+.card{
+  margin-bottom:5vh;
+  background-color:yellow;
+  height:30vh;
+  font-family:cursive;
+}
+
+@media only screen and (max-width: 600px) {
+  .card{
+    margin-bottom:5vh;
+    background-color:yellow;
+    font-family:'Times New Roman', Times, serif;
+    height: 70vh;
+  }
+
+  .abT{
+    font-size: 20px;
+  }
+
+  .conImg{
+    width: 100vw;
+    height: 60vh;
+  }
+
+  .conText{
+    text-align:center;
+    font-size:70px;
+    color:yellow;
+    margin-top:20vh;
+    font-family:monospace;
+    margin-bottom:20vh;
+  }
+
+  .hmText{
+    text-align:center;
+    font-size:60px;
+    color:yellow;
+    margin-top:20vh;
+    font-family:monospace;
+    margin-bottom:20vh;
+  }
+
+  .abText{
+    text-align:center;
+    font-size:70px;
+    color:yellow;
+    margin-top:20vh;
+    font-family:monospace;
+    margin-bottom:30vh;
+  }
+
+  .serText{
+    text-align:center;
+    font-size:75px;
+    color:yellow;
+    margin-top:20vh;
+    font-family:monospace;
+    margin-bottom:35vh;
+  }
+}
